@@ -64,18 +64,18 @@ namespace WpfApp6
             public int windSpeed { get; set; }
             static string[] WeatherType =
             {
-            "Солнечно", 
-                "Облачно" , 
-                "Дождь" , 
-                "Снег"
+            "Sunny", 
+                "Cloudy" , 
+                "Rain" , 
+                "Snoy"
         };
             string weather;
             public enum Precipitation : int
             {
-                Солнечно, 
-                Облачно, 
-                Дождь, 
-                Снег
+                Sunny,
+                Cloudy,
+                Rain, 
+                Snoy
             }
             public string precipitation { get; set; }
             public WeatherControl(int temperature, string windDirection, int windSpeed, string precipitation)
